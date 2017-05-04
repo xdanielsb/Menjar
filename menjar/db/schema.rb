@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170502154117) do
+ActiveRecord::Schema.define(version: 20170504002760) do
 
   create_table "charities", force: :cascade do |t|
     t.string   "name"
@@ -33,19 +33,17 @@ ActiveRecord::Schema.define(version: 20170502154117) do
     t.datetime "date"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-    t.integer  "provider_id"
-    t.index ["provider_id"], name: "index_donations_on_provider_id"
   end
 
   create_table "offers", force: :cascade do |t|
     t.integer  "amount"
     t.string   "name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-    t.integer  "product_id"
-    t.integer  "provider_id"
-    t.index ["product_id"], name: "index_offers_on_product_id"
-    t.index ["provider_id"], name: "index_offers_on_provider_id"
+    t.integer  "product_id_id"
+    t.integer  "provider_id_id"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.index ["product_id_id"], name: "index_offers_on_product_id_id"
+    t.index ["provider_id_id"], name: "index_offers_on_provider_id_id"
   end
 
   create_table "people", force: :cascade do |t|
@@ -53,8 +51,10 @@ ActiveRecord::Schema.define(version: 20170502154117) do
     t.string   "name"
     t.datetime "born_date"
     t.string   "nationality"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.integer  "provider_id_id"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.index ["provider_id_id"], name: "index_people_on_provider_id_id"
   end
 
   create_table "products", force: :cascade do |t|
@@ -78,12 +78,12 @@ ActiveRecord::Schema.define(version: 20170502154117) do
     t.datetime "limit_date"
     t.string   "date_reservation"
     t.string   "datetime"
+    t.integer  "provider_id_id"
+    t.integer  "consumer_id_id"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
-    t.integer  "provider_id"
-    t.integer  "consumer_id"
-    t.index ["consumer_id"], name: "index_reservations_on_consumer_id"
-    t.index ["provider_id"], name: "index_reservations_on_provider_id"
+    t.index ["consumer_id_id"], name: "index_reservations_on_consumer_id_id"
+    t.index ["provider_id_id"], name: "index_reservations_on_provider_id_id"
   end
 
 end

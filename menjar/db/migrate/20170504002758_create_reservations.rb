@@ -6,6 +6,8 @@ class CreateReservations < ActiveRecord::Migration[5.0]
       t.datetime :limit_date
       t.string :date_reservation
       t.string :datetime
+      t.references :provider_id, foreign_key: true
+      t.references :consumer_id, foreign_key: true
 
       t.timestamps
     end

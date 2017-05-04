@@ -3,13 +3,17 @@
 one:
   amount: 1
   description: MyText
-  limit_date: 2017-05-02 10:41:05
+  limit_date: 2017-05-03 19:27:54
   date_reservation: MyString
   datetime: MyString
+  provider_id: one
+  consumer_id: one
 
 two:
   amount: 1
   description: MyText
-  limit_date: 2017-05-02 10:41:05
+  limit_date: 2017-05-03 19:27:54
   date_reservation: MyString
   datetime: MyString
+  provider_id: two
+  consumer_id: two

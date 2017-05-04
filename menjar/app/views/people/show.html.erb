@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cedula:</strong>
+  <%= @person.cedula %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @person.name %>
+</p>
+
+<p>
+  <strong>Born date:</strong>
+  <%= @person.born_date %>
+</p>
+
+<p>
+  <strong>Nationality:</strong>
+  <%= @person.nationality %>
+</p>
+
+<p>
+  <strong>Provider:</strong>
+  <%= @person.provider_id %>
+</p>
+
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>

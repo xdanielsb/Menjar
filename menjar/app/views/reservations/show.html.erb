@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @reservation.amount %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @reservation.description %>
+</p>
+
+<p>
+  <strong>Limit date:</strong>
+  <%= @reservation.limit_date %>
+</p>
+
+<p>
+  <strong>Date reservation:</strong>
+  <%= @reservation.date_reservation %>
+</p>
+
+<p>
+  <strong>Datetime:</strong>
+  <%= @reservation.datetime %>
+</p>
+
+<p>
+  <strong>Provider:</strong>
+  <%= @reservation.provider_id %>
+</p>
+
+<p>
+  <strong>Consumer:</strong>
+  <%= @reservation.consumer_id %>
+</p>
+
+<%= link_to 'Edit', edit_reservation_path(@reservation) %> |
+<%= link_to 'Back', reservations_path %>

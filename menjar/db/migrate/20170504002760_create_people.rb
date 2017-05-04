@@ -5,6 +5,7 @@ class CreatePeople < ActiveRecord::Migration[5.0]
       t.string :name
       t.datetime :born_date
       t.string :nationality
+      t.references :provider_id, foreign_key: true
 
       t.timestamps
     end

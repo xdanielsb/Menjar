@@ -3,7 +3,11 @@
 one:
   amount: 1
   name: MyString
+  product_id: one
+  provider_id: one
 
 two:
   amount: 1
   name: MyString
+  product_id: two
+  provider_id: two
