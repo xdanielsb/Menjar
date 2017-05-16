@@ -3,6 +3,16 @@
     margin: auto;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 input {
     background-color: #fff !important;
     border-radius: 5px !important;
@@ -34,7 +44,12 @@ ul.features li {
     padding: 20px;
 }
 
-
+.rect_marg {
+    background-color: #fff;
+    margin-left: 20px;
+    padding: 30px !important;
+    margin:20px;
+}
 
 .mini_middle {
     display: table-cell;
@@ -89,22 +104,22 @@ h5 {
    color: #2e2e2e;
  }
  /* label focus color */
- .input-field input[type=text]:focus + label {
-   color: #ff1f1f
+ .input-field input:focus + label {
+   color: #ff1f1f !important;
  }
  /* label underline focus color */
- .input-field input[type=text]:focus {
-   border-bottom: 1px solid #ff1f1f;
+ .input-field input:focus {
+   border-bottom: 1px solid #ff1f1f !important;
    box-shadow: 0 1px 0 0 #ff1f1f !important;
    font-weight: bold;
  }
  /* valid color */
- .input-field input[type=text].valid {
+ .input-field input.valid {
    border-bottom: 1px solid #ff1f1f
    box-shadow: 0 1px 0 0 #ff1f1f
  }
  /* invalid color */
- .input-field input[type=text].invalid {
+ .input-field input.invalid {
    border-bottom: 1px solid #ff1f1f
    box-shadow: 0 1px 0 0 #ff1f1f
  }
