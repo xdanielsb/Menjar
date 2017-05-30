@@ -82,9 +82,7 @@
         </div>
     </div>
 
-    <% @products.each do |product| %>
-      <h1> <%= product.name %> </h1>
-    <% end %>
+
         <!-- Tab system -->
     <div class="row">
         <div class="col s3 offset-s1 info_rectangle z-depth-2" style="margin-top: 20px;">
@@ -111,20 +109,24 @@
 
         <div class="col s7" style="margin-top: 20px;">
 
+          <% @products.each do |product| %>
+
+
+
             <div class="product z-depth-2">
                 <!-- Imagen -->
                 <div class="pimage">
-                    <%= image_tag("products/bonyurtPack.png", :class => "product_icon")%>
+                    <%= image_tag("products/#{product.name}.png", :class => "product_icon")%>
                 </div>
                 <!-- Datos del producto -->
                 <div class="pdata">
-                    <h5 class="red-text text-darken-3">Bonyurt</h5>
+                    <h5 class="red-text text-darken-3"><%= product.name %></h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequatur ea ratione ut provident quibusdam magni molestiae facere sint.</p>
                 </div>
                 <!-- Comprar -->
                 <div class="pbuy">
                     <div class="pbuy_middle">
-                        <h5 class="center-align">$2.500</h5>
+                        <h5 class="center-align">$<%= product.price %></h5>
                         <div class="btn waves-effect waves-light blue-grey" style="margin-right:auto; margin-left:auto">
                             Comprar
                         </div>
@@ -133,49 +135,9 @@
                 </div>
             </div>
 
-            <div class="product z-depth-2">
-                <!-- Imagen -->
-                <div class="pimage">
-                    <%= image_tag("products/bonyurtPack.png", :class => "product_icon")%>
-                </div>
-                <!-- Datos del producto -->
-                <div class="pdata">
-                    <h5 class="red-text text-darken-3">Bonyurt</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequatur ea ratione ut provident quibusdam magni molestiae facere sint.</p>
-                </div>
-                <!-- Comprar -->
-                <div class="pbuy">
-                    <div class="pbuy_middle">
-                        <h5 class="center-align">$2.500</h5>
-                        <div class="btn waves-effect waves-light blue-grey" style="margin-right:auto; margin-left:auto">
-                            Comprar
-                        </div>
-                    </div>
 
-                </div>
-            </div>
 
-            <div class="product z-depth-2">
-                <!-- Imagen -->
-                <div class="pimage">
-                     <%= image_tag("products/bonyurtPack.png", :class => "product_icon")%>
-                </div>
-                <!-- Datos del producto -->
-                <div class="pdata">
-                    <h5 class="red-text text-darken-3">Bonyurt</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequatur ea ratione ut provident quibusdam magni molestiae facere sint.</p>
-                </div>
-                <!-- Comprar -->
-                <div class="pbuy">
-                    <div class="pbuy_middle">
-                        <h5 class="center-align">$2.500</h5>
-                        <div class="btn waves-effect waves-light blue-grey" style="margin-right:auto; margin-left:auto">
-                            Comprar
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+        <% end %>
 
         </div>
     </div>
