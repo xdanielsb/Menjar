@@ -5,6 +5,9 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( styles.css )
 Rails.application.config.assets.precompile += %w( map.css )
+Rails.application.config.assets.precompile += %w( buttons.js )
+Rails.application.config.assets.precompile += %w( modals.js )
+Rails.application.config.assets.precompile += %w( google_maps.js )
 Rails.application.config.assets.precompile += %w( products.css )
 
 # Add additional assets to the asset load path
