@@ -12,6 +12,57 @@
       align-content: center;
     }
     </style>
+
+    <script>
+
+      var bogota = {lat: 4.710989, lng: -74.072092};
+      var map;
+      var marker;
+      var data;
+      var location;
+      var data2;
+
+  //    let locations_products  = <%= j @products.to_json %>
+    //  console.log(locations_products)
+
+
+      function insert_marker(lat, long){
+        location = {lat, long}
+         data = {
+          position: location,
+          map: map,
+          clickable: true,
+         }
+          console.log(data)
+         //intance the marker
+      //    marker = new google.maps.Marker(data);
+
+      }
+      function initMap() {
+
+
+
+          map = new google.maps.Map(document.getElementById('google_map'), {
+            zoom: 15,
+            center: bogota
+          });
+          marker = new google.maps.Marker({
+            position: bogota,
+            map: map
+          });
+
+          <% @products.each do |product| %>
+
+          marker = new google.maps.Marker({
+            position: {lat: <%= product.latitude %>, lng:  <%= product.long %>},
+            map: map
+          });
+
+          <% end %>
+      }
+
+
+    </script>
 <!-- HEADER -->
 <header>
     <!-- Menu -->

@@ -1,0 +1,156 @@
+/* line 1, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.logo {
+  display: block;
+  margin: auto;
+}
+
+/* line 6, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* line 12, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+main {
+  flex: 1 0 auto;
+}
+
+/* line 16, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+input {
+  background-color: #fff !important;
+  border-radius: 5px !important;
+}
+
+/* line 21, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.mapa_prev {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 26, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+ul.features li {
+  display: inline;
+  margin-right: 5%;
+}
+
+/* line 31, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.mini_map {
+  /*width: 300px;*/
+  height: 150px;
+  background-image: url(/assets/xmaps_prev-7abac1718d14a2c9eda0ea550c1fcc0319b623f93dd0191e9ec99611e56a7722.png);
+  background-size: cover;
+  border: solid 10px #fff;
+  display: table;
+  /*position: absolute;*/
+}
+
+/* line 41, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.info_rectangle {
+  background-color: #fff;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+/* line 47, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.rect_marg {
+  background-color: #fff;
+  margin-left: 20px;
+  padding: 30px !important;
+  margin: 20px;
+}
+
+/* line 54, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.mini_middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 59, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.mini_inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 65, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+html body {
+  background-color: #eceff1;
+}
+
+/* line 68, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.tabs .indicator {
+  background-color: #e53935;
+}
+
+/* line 72, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.close_icon {
+  float: right;
+  width: 25px;
+  height: 25px;
+  background-image: url(/assets/close-4131be2042fd8b533566023816a5e678f813e9116a1306e27bcc5f72eb514118.png);
+  background-size: cover;
+  transition: background-image 300ms ease-in-out;
+}
+
+/* line 81, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.close_icon:hover {
+  background-image: url(/assets/close_hover-c074e3e14016d2dfb022815318de29736cd3eef5ae470baddab4ee5c965249ee.png);
+  cursor: pointer;
+}
+
+/* line 88, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+/* line 93, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.center_all {
+  /*display: inline-block;*/
+  /*width: 100px;*/
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+  /*vertical-align: middle;*/
+}
+
+/* label color */
+/* line 103, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.input-field label {
+  color: #2e2e2e;
+}
+
+/* label focus color */
+/* line 107, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.input-field input:focus + label {
+  color: #ff1f1f !important;
+}
+
+/* label underline focus color */
+/* line 111, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.input-field input:focus {
+  border-bottom: 1px solid #ff1f1f !important;
+  box-shadow: 0 1px 0 0 #ff1f1f !important;
+  font-weight: bold;
+}
+
+/* valid color */
+/* line 117, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.input-field input.valid {
+  border-bottom: 1px solid #ff1f1f;
+  box-shadow: 0 1px 0 0 #ff1f1f;
+}
+
+/* invalid color */
+/* line 122, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.input-field input.invalid {
+  border-bottom: 1px solid #ff1f1f;
+  box-shadow: 0 1px 0 0 #ff1f1f;
+}
+
+/* icon prefix focus color */
+/* line 127, /home/daniel/Documents/myProjects/Menjar/menjar/app/assets/stylesheets/styles.scss */
+.input-field .prefix.active {
+  color: #ff1f1f;
+}

@@ -1,7 +1,7 @@
 var bogota = {lat: 4.710989, lng: -74.072092};
 var map;
 var marker;
-function initMap() {
+function initMap2() {
 
     map = new google.maps.Map(document.getElementById('google_map'), {
       zoom: 15,
