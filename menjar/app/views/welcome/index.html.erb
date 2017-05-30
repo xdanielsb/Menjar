@@ -81,6 +81,10 @@
             </div>
         </div>
     </div>
+
+    <% @products.each do |product| %>
+      <h1> <%= product.name %> </h1>
+    <% end %>
         <!-- Tab system -->
     <div class="row">
         <div class="col s3 offset-s1 info_rectangle z-depth-2" style="margin-top: 20px;">

@@ -10,5 +10,20 @@
   <%= @product.expiration %>
 </p>
 
+<p>
+  <strong>Price:</strong>
+  <%= @product.price %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @product.latitude %>
+</p>
+
+<p>
+  <strong>Long:</strong>
+  <%= @product.long %>
+</p>
+
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>

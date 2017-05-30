@@ -21,6 +21,21 @@
     <%= f.datetime_select :expiration %>
   </div>
 
+  <div class="field">
+    <%= f.label :price %>
+    <%= f.number_field :price %>
+  </div>
+
+  <div class="field">
+    <%= f.label :latitude %>
+    <%= f.text_field :latitude %>
+  </div>
+
+  <div class="field">
+    <%= f.label :long %>
+    <%= f.text_field :long %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>

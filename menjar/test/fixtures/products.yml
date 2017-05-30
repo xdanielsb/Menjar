@@ -2,8 +2,14 @@
 
 one:
   name: MyString
-  expiration: 2017-05-29 19:59:08
+  expiration: 2017-05-30 07:30:40
+  price: 1
+  latitude: 1.5
+  long: 1.5
 
 two:
   name: MyString
-  expiration: 2017-05-29 19:59:08
+  expiration: 2017-05-30 07:30:40
+  price: 1
+  latitude: 1.5
+  long: 1.5
