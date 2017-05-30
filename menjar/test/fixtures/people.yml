@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cedula: MyString
+  name: MyString
+  born_date: 2017-05-29 19:59:10
+  nationality: MyString
+  provider_id: one
+
+two:
+  cedula: MyString
+  name: MyString
+  born_date: 2017-05-29 19:59:10
+  nationality: MyString
+  provider_id: two
