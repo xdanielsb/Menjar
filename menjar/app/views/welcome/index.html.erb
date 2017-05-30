@@ -5,13 +5,20 @@
     <%= stylesheet_link_tag "styles.css" %>
     <%= stylesheet_link_tag "map.css" %>
     <%= stylesheet_link_tag "products.css" %>
+    <style>
+    .logo_base{
+      width: 170px;
+      height: 50px;
+      align-content: center;
+    }
+    </style>
 <!-- HEADER -->
 <header>
     <!-- Menu -->
     <nav class="red darken-4 z-depth-3">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo center">
-            <img src="img/logo_base.png" alt="" width="140px" heigth="70px" align="center">
+            <%= image_tag("logo_base.png", :class => "logo_base")%>
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="register.html"><i class="medium material-icons">perm_identity</i></a></li>
@@ -103,7 +110,7 @@
             <div class="product z-depth-2">
                 <!-- Imagen -->
                 <div class="pimage">
-                    <img src="img/products/bonyurtPack.png" alt="">
+                    <%= image_tag("products/bonyurtPack.png", :class => "product_icon")%>
                 </div>
                 <!-- Datos del producto -->
                 <div class="pdata">
@@ -125,7 +132,7 @@
             <div class="product z-depth-2">
                 <!-- Imagen -->
                 <div class="pimage">
-                    <img src="img/products/bonyurtPack.png" alt="">
+                    <%= image_tag("products/bonyurtPack.png", :class => "product_icon")%>
                 </div>
                 <!-- Datos del producto -->
                 <div class="pdata">
@@ -147,7 +154,7 @@
             <div class="product z-depth-2">
                 <!-- Imagen -->
                 <div class="pimage">
-                    <img src="img/products/bonyurtPack.png" alt="">
+                     <%= image_tag("products/bonyurtPack.png", :class => "product_icon")%>
                 </div>
                 <!-- Datos del producto -->
                 <div class="pdata">
