@@ -11,4 +11,5 @@ Rails.application.routes.draw do
 
   root "welcome#index"
   get "register/" => "register#index"
+  get "facade/" => "facade#index"
 end
