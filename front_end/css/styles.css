@@ -9,8 +9,6 @@ body {
   flex-direction: column;
 }
 
-
-
 main {
   flex: 1 0 auto;
 }
@@ -53,6 +51,19 @@ ul.features li {
     margin:20px;
 }
 
+.card_presentation {
+    width: 150px;
+    height: 350px;
+    margin-right: 10px;
+}
+
+h6 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #383838;
+}
+
 .mini_middle {
     display: table-cell;
     vertical-align: middle;
@@ -61,8 +72,8 @@ ul.features li {
 .mini_inner {
     margin-left: auto;
     margin-right: auto;
-
 }
+
 
 html body {
     background-color: #eceff1;
