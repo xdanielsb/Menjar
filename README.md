@@ -3,17 +3,16 @@ Menjar
 
 Puedes ver las vistas en la siguiente página en el siguiente link [Website](https://xdanielsb.github.io/Menjar/views/index.html), para probar todas las funcionalidades puedes clonar la aplicación y corre la aplicacion en /menjar/ utilzando ruby on rails.
 
-¿Qué es Menjar?
+What is Menjar?
 ===============
 
-Menjar es una aplicación web que busca reducir el desperdicio de alimentos mediante la comercialización o donación de productos que están próximos a su fecha límite de consumo.
+Real-time application, mobile and responsive with desktop version that implements a localization system that facilitates the location of food points (restaurants, stores, chain centers, etc ...) in which it is necessary to sell products that are close to expiring, in such a way that the application to be developed warns the users of these offers. This application could have an important impact in enviromental issues such as food wasting and in social issues like tha lack of food in some communities around the country.
 
 
 Features
 ========
 - The architecture is MVC
 - Use of rails framework
-
 
 Opinions
 ========
@@ -33,4 +32,8 @@ Register
 About the authors
 =================
 
-![Alt Pet Factory](docs/about.png?raw=true "Title")
+
+* Daniel Rodriguez | [Github](https://github.com/Dandarprox)
+* Santiago  Peña| [Github](https://github.com/spenas)
+* Julian Garzon|  [Github](https://github.com/juligarji)
+* Daniel Santos|  [Github](https://github.com/xdanilesb)
