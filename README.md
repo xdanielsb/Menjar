@@ -14,11 +14,6 @@ Features
 - The architecture is MVC
 - Use of rails framework
 
-Domain model
-============
-
-![Alt Domain Model](docs/domain.png?raw=true "Domain model")
-
 
 Opinions
 ========
