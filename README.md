@@ -1,42 +1,39 @@
-# Menjar
-<<<<<<< HEAD
-Ingenieria de Software I, Universidad Nacional de Colombia.
-=======
+Menjar
+======
 
-### Pet Factory
----
-
-### ¿Qué es Menjar?
+¿Qué es Menjar?
+===============
 
 Menjar es una aplicación web que busca reducir el desperdicio de alimentos mediante la comercialización o donación de productos que están próximos a su fecha límite de consumo.
 
----
 
-### Features
-
+Features
+========
 - The architecture is MVC
 - Use of rails framework
 
----
-
-### Domain model
+Domain model
+============
 
 ![Alt Domain Model](docs/domain.png?raw=true "Domain model")
 
 
----
-
-### Screenshot project
-
+Opinions
+========
 ![Alt Pet Factory](docs/opinions.png?raw=true "Title")
+
+
+Locate products
+===============
 ![Alt Pet Factory](docs/locate.png?raw=true "Title")
+
+
+Register
+========
 ![Alt Pet Factory](docs/register.png?raw=true "Title")
-![Alt Pet Factory](docs/functions.png?raw=true "Title")
 
 
-### About the authors
+About the authors
+=================
 
 ![Alt Pet Factory](docs/about.png?raw=true "Title")
-
----
->>>>>>> 12ca872cc54f7870f0bfc3e68f6ef700d1beb504
