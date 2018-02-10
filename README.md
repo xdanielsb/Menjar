@@ -1,6 +1,8 @@
 Menjar
 ======
 
+Puedes ver las vistas en la siguiente página en el siguiente link [Website](https://xdanielsb.github.io/Menjar/views/index.html), para probar todas las funcionalidades puedes clonar la aplicación y corre la aplicacion en /menjar/ utilzando ruby on rails.
+
 ¿Qué es Menjar?
 ===============
 
